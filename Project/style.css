@@ -1,0 +1,34 @@
+body {
+    background-color: #5BC0EB;
+}
+
+#navbar {
+    background-color: #BCE7FD;
+}
+
+.nav-link {
+    color: #1B1F3B;
+}
+.nav-link:hover {
+    color: #5BC0EB;
+}
+.active {
+    background-color: #93748A;
+    color: #BCE7FD;
+}
+
+/* 
+
+https://coolors.co/93748a-1b1f3b-c0dfa1-bce7fd-5bc0eb
+
+#93748A - Mountbatten Pink
+
+#1B1F3B - Space Cadet
+
+#C0DFA1 - Granny Smith Apple
+
+#BCE7FD - Uranium Blue
+
+#5BC0EB - Cyan Process 
+
+*/
