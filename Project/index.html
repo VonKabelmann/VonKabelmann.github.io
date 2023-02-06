@@ -46,14 +46,69 @@
         <li class="nav-item">
           <a class="nav-link" href="checkout.html">Checkout</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
       </ul>
     </header>
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col">First Column</div>
-          <div class="col">Second Column</div>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="carousel-slide-about">
+            <div class="container">
+              <h1>EXAMPLE HEADLINE</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                aliquam inventore, sit aut ut culpa quasi repudiandae eaque
+                excepturi quaerat, odio ipsum porro corporis illo earum facilis
+                blanditiis delectus dolor.
+              </p>
+              <a href="about.html" class="btn btn-lg btn-primary">
+                Learn More
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item" id="carousel-slide-shop">
+            <div class="container">
+              <h1>EXAMPLE HEADLINE</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                aliquam inventore, sit aut ut culpa quasi repudiandae eaque
+                excepturi quaerat, odio ipsum porro corporis illo earum facilis
+                blanditiis delectus dolor.
+              </p>
+              <a href="#" class="btn btn-lg btn-primary"> EXAMPLE BUTTON </a>
+            </div>
+          </div>
         </div>
+        <a
+          href="#myCarousel"
+          class="carousel-control-prev"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="sr-only">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </span>
+        </a>
+        <a
+          href="#myCarousel"
+          class="carousel-control-next"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="sr-only">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </span>
+        </a>
       </div>
     </main>
     <footer>
@@ -62,3 +117,5 @@
     <!-- Bootstrap JavaScript Libraries -->
   </body>
 </html>
+
+<!-- https://www.youtube.com/watch?v=ku_97a6Bgkg -->
