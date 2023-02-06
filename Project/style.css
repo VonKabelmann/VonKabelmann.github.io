@@ -18,26 +18,39 @@ body {
 }
 .carousel-item {
     height: 32rem;
-    background-color: #5BC0EB;
-    color: #93748A;
-    text-shadow: #1B1F3B 1px 2px 2px;
     position: relative;
     background-position: center;
     background-size: cover;
 }
-.container {
+.carousel-item::before {
+    content: "";
+    background-image: 
+    linear-gradient(
+        to bottom,
+        transparent, rgba(0,0,0,0.5)
+    );
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-item .container {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     padding-bottom: 50px;
+    color: #F5D491;
+    text-shadow: #1B1F3B 1px 2px 2px;
 }
 #carousel-slide-about {
     background-image: url(slide-about.jpg);
 }
 #carousel-slide-shop {
-    background-image: url(slide-shop.jpg);
+    background-image: url(slide-test.jpg);
 }
+
 
 /* 
 
@@ -47,7 +60,7 @@ https://coolors.co/93748a-1b1f3b-c0dfa1-bce7fd-5bc0eb
 
 #1B1F3B - Space Cadet
 
-#C0DFA1 - Granny Smith Apple
+#C0DFA1 - Granny Smith Apple / #F5D491 - Peach Yellow (?)
 
 #BCE7FD - Uranian Blue
 
