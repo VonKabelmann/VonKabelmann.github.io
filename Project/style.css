@@ -1,6 +1,10 @@
+
 body {
-    background-color: #BCE7FD;
+    background: rgb(91,192,235);
+    background: linear-gradient(45deg, rgba(91,192,235,1) 0%, rgba(188,231,253,1) 75%, rgba(91,192,235,1) 100%);
 }
+
+/* ===NAVBAR CONTENT===  */
 
 #navbar {
     background-color: #93748A;
@@ -9,13 +13,18 @@ body {
 .nav-link, #headerText {
     color: #1B1F3B;
 }
+
 .nav-link:hover {
     color: #5BC0EB;
 }
+
 .nav-link.active {
     background-color: #1B1F3B;
     color: #93748A;
 }
+
+/* ===CAROUSEL CONTENT=== */
+
 .carousel-item {
     height: 32rem;
     position: relative;
@@ -44,15 +53,46 @@ body {
     color: #F5D491;
     text-shadow: #1B1F3B 1px 2px 2px;
 }
+
+/* ===CAROUSEL SLIDE IMAGE SOURCES=== */
+
 #carousel-slide-about {
-    background-image: url(slide-about.jpg);
+    background-image: url(images/slide-about.jpg);
 }
 #carousel-slide-shop {
-    background-image: url(slide-test.jpg);
+    background-image: url(images/slide-shop.jpeg);
 }
 
+/* ===GENERAL CONTENT=== */
+
+.divider {
+    height: 6vh;
+    box-shadow: inset 0 0 30px #93748A;
+}
+
+/* ===FOOTER CONTENT=== */
+
+#footer-div {
+    border: #1B1F3B 3px;
+}
+
+/* ===CARD CONTENT=== */
+.card {
+    box-shadow: #1B1F3B 1px 1px 2px;
+    border: #1B1F3B;
+}
+.card-header {
+    background: rgb(147,116,138);
+    background: linear-gradient(45deg, rgba(169,178,200,1) 0%, rgba(147,116,138,1) 100%);
+
+}
+.card-body {
+    background: rgb(91,192,235);
+    background: linear-gradient(45deg, rgba(91,192,235,1) 0%, rgba(188,231,253,1) 75%, rgba(91,192,235,1) 100%);
+}
 
 /* 
+
 
 https://coolors.co/93748a-1b1f3b-c0dfa1-bce7fd-5bc0eb
 

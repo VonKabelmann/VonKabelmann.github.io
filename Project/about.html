@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>UNTITLED</title>
+    <title>Cat Central - About Us</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link
+      rel="icon"
+      type="images/x-icon"
+      href="images/cat-central-favicon.webp"
+    />
     <!-- Bootstrap CSS v5.2.1 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -31,7 +35,8 @@
       crossorigin="anonymous"
     ></script>
 
-    <script defer src="site.js"></script>
+    <!-- <script defer src="site.js"></script> -->
+    <script defer src="scripts/catFacts.js"></script>
   </head>
 
   <body>
@@ -51,10 +56,110 @@
         </li>
       </ul>
     </header>
-    <main></main>
-    <footer>
-      <!-- place footer here -->
+    <main>
+      <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold">About us</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="m-3">
+            <div class="card">
+              <div class="card-header">Featured</div>
+              <div class="card-body" id="cat-fact-card-body">
+                <h5 class="card-title">Random Cat Fact</h5>
+                <p class="card-text" id="cat-fact-paragraph"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row w-100">
+          <div class="col-lg-6 my-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d754.5276041726217!2d11.993688903931943!3d57.66333710297254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1675780229825!5m2!1ssv!2sse"
+              class="w-100"
+              height="400"
+              allowfullscreen=""
+              loading="lazy"
+              title="Google Maps Module Showing Business Address"
+            ></iframe>
+          </div>
+          <div class="col-lg-6 my-4 d-flex align-items-center">
+            <div>
+              <h6>This map is embedded in a 6 column layout</h6>
+              <p>
+                Try to resize your browser window - you will see that it starts
+                to take up 12 columns on screens smaller than 992px.
+              </p>
+              <p>
+                This useful feature helps to make your embedded map responsive
+                (<strong>mobile friendly</strong>). You can customize responsive
+                behavior with the use of
+                <a
+                  href="https://mdbootstrap.com/docs/standard/layout/breakpoints/"
+                  >breakpoints</a
+                >.
+              </p>
+              <p>
+                This text looks so nice because it's
+                <strong>vertically centered</strong> you can achieve this effect
+                using the
+                <a
+                  href="https://mdbootstrap.com/docs/standard/layout/vertical-alignment/"
+                  >vertical alignment</a
+                >
+                layout option.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container">
+      <div
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+        id="footer-div"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <img
+            width="45"
+            src="images/cat-central-footer-logo.webp"
+            alt="Cat Central Logo"
+          />
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Cat Central, Inc</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://github.com/VonKabelmann"
+              ><img
+                class="bi"
+                width="24"
+                height="24"
+                src="images/github-mark.svg"
+                alt="Github Logo"
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.linkedin.com/in/pontus-ekdahl-088a90264/"
+            >
+              <img
+                class="bi"
+                width="24"
+                height="24"
+                src="images/linkedin-mark.svg"
+                alt="Linkedin Logo"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
-    <!-- Bootstrap JavaScript Libraries -->
   </body>
 </html>
