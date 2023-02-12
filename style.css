@@ -4,6 +4,19 @@ body {
     background: linear-gradient(45deg, rgba(91,192,235,1) 0%, rgba(188,231,253,1) 75%, rgba(91,192,235,1) 100%);
 }
 
+/* ===FONT CONTENT=== */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /* ===NAVBAR CONTENT===  */
 
 #navbar {
@@ -71,7 +84,6 @@ body {
 }
 
 /* ===FOOTER CONTENT=== */
-
 #footer-div {
     border: #1B1F3B 3px;
 }
@@ -91,6 +103,27 @@ body {
     background: linear-gradient(45deg, rgba(91,192,235,1) 0%, rgba(188,231,253,1) 75%, rgba(91,192,235,1) 100%);
 }
 
+/* ===MODAL CONTENT=== */
+.modal-content {
+    background-color: #BCE7FD;
+}
+/* ===IMAGE CONTENT=== */
+.product-image {
+    height: auto;
+    width: 100%;
+}
+
+.table {
+    background-color: #F5D491;
+}
+
+.contact .list-group-item {
+    background-color: #F5D491;
+}
+
+.btn-peach {
+    background-color: #F5D491;
+}
 /* 
 
 
@@ -100,7 +133,7 @@ https://coolors.co/93748a-1b1f3b-c0dfa1-bce7fd-5bc0eb
 
 #1B1F3B - Space Cadet
 
-#C0DFA1 - Granny Smith Apple / #F5D491 - Peach Yellow (?)
+#F5D491 - Peach Yellow
 
 #BCE7FD - Uranian Blue
 
